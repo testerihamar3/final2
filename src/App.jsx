@@ -28,6 +28,7 @@ function App() {
             {users.map(user => {
                 return <h3>{user.email}</h3>;
             })}
+            <h1>Hello World</h1>
         </div>
     );
 }

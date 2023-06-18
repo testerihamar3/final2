@@ -22,7 +22,7 @@ function App() {
         <div className="App">
             {loading && <h1>Loading ...</h1>}
             <button onClick={inc}>increment</button>
-            <h2>{count}</h2>
+            <span>{count}</span>
             <button onClick={dec}>decrement</button>
             <button onClick={getUsers}>get users ASYNC</button>
             {users.map(user => {

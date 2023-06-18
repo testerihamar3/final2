@@ -45,5 +45,7 @@ const todoSlice = createSlice({
     }
 })
 
+const a = []
+
 export const { incrementRedux, decrementRedux } = todoSlice.actions
 export default todoSlice.reducer
